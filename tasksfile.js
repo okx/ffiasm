@@ -62,7 +62,7 @@ function testAltBn128() {
         " fr.o"+
         " googletest-release-1.10.0/libgtest.a"+
         " -o altbn128_test" +
-        " -fmax-errors=5 -pthread -std=c++11 -fopenmp -lgmp -g", {cwd: "build", nopipe: true}
+    " -fmax-errors=5 -DUSE_OPENMP -DUSE_ASM -DARCH_X86_64 -pthread -std=c++11 -fopenmp -lgmp -g", {cwd: "build", nopipe: true}
     );
     sh("./altbn128_test", {cwd: "build", nopipe: true});
 }
