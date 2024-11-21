@@ -1,4 +1,4 @@
-[submodule "depends/cryptography_cuda"]
-	path = depends/cryptography_cuda
-	url = git@github.com:okx/cryptography_cuda.git
+[submodule "depends/zeknox"]
+	path = depends/zeknox
+	url = git@github.com:okx/zeknox.git
 	branch = dev
