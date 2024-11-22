@@ -1,4 +1,4 @@
 [submodule "depends/zeknox"]
 	path = depends/zeknox
-	url = git@github.com:okx/zeknox.git
+	url = https://github.com/okx/zeknox.git
 	branch = dev
